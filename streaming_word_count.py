@@ -7,10 +7,7 @@
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.streaming import StreamingContext
-'''
-# Create Spark Context with two working threads (note, `local[2]`)
-sc = SparkContext("local[2]", "NetworkWordCount")
-'''
+
 #Spark session
 
 

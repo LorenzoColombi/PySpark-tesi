@@ -17,6 +17,10 @@ ssc.checkpoint("checkpoint")
 def updateFunc(new_values, last_sum):
     return sum(new_values) + (last_sum or 0)
 
+# Create DStream that will connect to the stream of input lines from connection to
+localhost:9999
+lines = ssc.socketTextStream("localhost", 9999)
+
 # Calculate running counts
 # Line 1: Split lines in to words
 # Line 2: count each word in each batch
