@@ -10,7 +10,7 @@ exportedPath="/home/lorenzo/Documenti/PySpark-tesi/Prototipo/exported"
 #Lettura streaming da file (vedi variabile csvFilePath)
 csvFilePath="/home/lorenzo/Documenti/PySpark-tesi/Prototipo/exported/test/*.csv"
 #Output su file JSON (vedi variabile outputDir)
-outputDir = "/home/lorenzo/Documenti/PySpark-tesi/Prototipo/outputStreaming/"
+outputDir = "/home/lorenzo/Documenti/PySpark-tesi/Prototipo/outputStreaming/dataframe.json"
 
 #CONFIGURAZIONE PATH
 
